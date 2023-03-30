@@ -4,4 +4,4 @@
 
 <p>HTML CSS BOOTSTRAP</p>
 
-<img src"/img/gif2.gif">
+<img src="/img/gif2.gif">
