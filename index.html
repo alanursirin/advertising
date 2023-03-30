@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+  </head>
+  <style>
+        .card{
+            transition: all 0.3s;
+        }
+        .card:hover{
+            transform: translate(10px,-10px);
+            transition: all 0.5s;
+            box-shadow: 2px 2px 20px rgb(6, 52, 202);
+        }
+    .btn:hover{
+      transform: scale(1.05);
+      background-color: #999999;
+      border-radius: 50px;
+      transition: all 0.4s;
+    }
+</style>
+  <body>
+  <!-- NAVBAR  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-1" href="#">
+        <img src="img/img2.jpg" style="width: 75px;">
+        PULSE
+        
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/posters.html">POSTERS</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">ABOUT</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- HOME PAGE -->
+
+<!-- HERO -->
+<div class="container my-5">
+    <div class="row border p-3 rounded shadow">
+
+        <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center ">
+            <h1>Creativity is</h1>
+            <h1>the key to</h1>
+            <h1>success.</h1>
+            <p>Lighting the way for your brand with our creativity. WE ARE OPENPULSE</p>
+        </div>
+
+        <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-end">
+            <img src="/img/img1.jpg" class="w-100 img-fluid" style="max-width: 500px;" alt="">
+        </div>
+
+    </div>
+</div>
+
+<!-- CARDS -->
+
+<div class="d-flex gap-5 flex-wrap my-5 justify-content-center">
+
+    <!-- CARD -->
+    <div class="card" style="width: 18rem;">
+        <div class="card-head d-flex align-items-center justify-content-center" style="height:213px">
+            <img src="/img/17.jpg" class="w-100">
+        </div>
+        <div class="card-body d-flex flex-column justify-content-between" >
+            <h3 class="card-title text-center border-bottom pb-3" >360° Solutions</h3>
+            <p class="card-text">Providing ongoing support and analysis to ensure the success of advertising campaigns</p>
+            <a class="btn btn-light">read more</a>
+        </div>
+    </div>
+    <!-- CARD END-->
+    <!-- CARD -->
+    <div class="card" style="width: 18rem;">
+        <div  class="card-head d-flex align-items-center justify-content-center" style="height:210px">
+            <img src="/img/ios.jpg" class="w-100">
+        </div>
+        <div class="card-body d-flex flex-column justify-content-between">
+            <h3 class="card-title text-center border-bottom pb-3" > Quality Assuarance</h3>
+            <p class="card-text"> Designing visually appealing and effective advertisements, such as print ads, billboards, digital banners, and social media posts
+            </p>
+            <a class="btn btn-light">read more</a>
+        </div>
+    </div>
+    <!-- CARD END -->
+    <!-- CARD -->
+    <div class="card" style="width: 18rem;">
+        <div  class="card-head d-flex align-items-center justify-content-center" style="height:210px">
+            <img src="/img/14.jpg" class="w-100">
+        </div>
+        <div class="card-body d-flex flex-column justify-content-between">
+            <h3 class="card-title text-center border-bottom pb-3" >Architecting</h3>
+            <p class="card-text">Evaluating the effectiveness of advertising campaigns and adjusting strategies as needed to maximize ROI.</p>
+            <a class="btn btn-light">read more</a>
+        </div>
+    </div>
+    <!-- CARD END -->
+</div>
+
+    <!-- FOOTER -->
+ 
+      
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+           
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
